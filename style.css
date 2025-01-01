@@ -100,6 +100,18 @@ p {
         width: 100%;
         border-top: #E3DDD7 solid 1px;
     }
+
+    .content-grid-wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+
+        .content-grid-item {
+            display: flex;
+            flex-direction: row;
+            padding: 0px 32px;
+        }
+    }
 }
 
 
