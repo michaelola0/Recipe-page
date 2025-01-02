@@ -46,6 +46,11 @@ p {
     font-weight: 600;
 }
 
+
+/* List items styling */
+ol, ul {
+    margin: 0px;
+}
 /*Section Styling */
 
 .section_hero {
@@ -72,20 +77,22 @@ p {
     .content-item {
         display: flex;
         flex-direction: column;
-        gap: 24px;
+        gap: 16px;
+        
     }
 
     .content-item.prepare {
         padding: 24px;
         background-color: #FFF7FB;
         border-radius: 12px;
+
+        
         
 
         .content-item-title.prepare {
             font-size: 20px;
             font-weight: 500;
             color: #7A284E;
-            margin-top: -16px;
         }
     }
 
@@ -104,12 +111,17 @@ p {
     .content-grid-wrap {
         display: flex;
         flex-direction: column;
-        gap: 0px;
+        gap: 8px;
 
         .content-grid-item {
             display: flex;
             flex-direction: row;
             padding: 0px 32px;
+        
+        }
+
+        .ingredient {
+            min-width: 50%;
         }
     }
 }
@@ -121,9 +133,7 @@ p {
 @media (max-width: 440px) {
 
     body {
-        background-color: #F3E5D7;
         padding: 0px;
-        margin: 0px;
     }
     
     main {
